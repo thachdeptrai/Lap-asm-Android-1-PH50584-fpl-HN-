@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã Nv: "
+        android:textColor="#F40404"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tvMaNV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="001"
+        android:textSize="25dp"
+        android:textColor="#F40404"/>
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ Tên: "
+            android:textColor="#121111"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/tvHoTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="abc"
+            android:textSize="25dp"
+            android:textColor="#121111"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phòng Ban: "
+        android:textColor="#121111"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/tvPb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hành Chính"
+        android:textSize="25dp"
+        android:textColor="#121111"/>
+
+</LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:orientation="horizontal">
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_gravity="center_horizontal"
+           android:src="@drawable/baseline_edit"
+           android:id="@+id/imgSua"
+           />
+       <ImageView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_gravity="center_horizontal"
+           android:src="@drawable/baseline_delete"
+           android:layout_marginLeft="20dp"
+
+           android:id="@+id/imgDelete"/>
+
+   </LinearLayout>
+</LinearLayout>

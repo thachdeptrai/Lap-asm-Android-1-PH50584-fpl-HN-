@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="FPT POLYTECHNIC"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+
+    <EditText
+        android:id="@+id/edtTen"
+        android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:hint="Nhập tên bạn"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/edtMsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập MSSV"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:id="@+id/edtTuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tuổi"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rdgGioitinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giới tính: "
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rdbNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam"
+            android:textSize="15dp"
+            android:layout_margin="1dp"
+            />
+        <RadioButton
+            android:id="@+id/rdbNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ"
+            android:textSize="15dp"
+            android:layout_margin="1dp"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sở Thích: "
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        />
+<CheckBox
+    android:id="@+id/cbDabong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Đá Bóng"
+android:layout_marginLeft="10dp"
+    />
+    <CheckBox
+        android:id="@+id/cbGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chơi Game"
+        android:layout_marginLeft="10dp"
+        />
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LƯU DỮ LIỆU"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+<TextView
+    android:id="@+id/txtResult"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="@color/blue"
+    android:text="Nội dung hiển thị sau khi ấn nút lưu"
+    android:textSize="20dp"
+    android:layout_margin="10dp"
+    />
+
+</LinearLayout>

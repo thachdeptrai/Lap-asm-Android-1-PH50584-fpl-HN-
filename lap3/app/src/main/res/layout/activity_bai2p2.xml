@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Bai2p2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thứ khách hàng cần mua là: "
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvHienThiGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị ở đây "
+        android:textSize="20sp"
+        android:textColor="#BC0127"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hãy Báo giá cho khách hàng "
+        android:textSize="25sp"
+        android:textColor="#2196F3"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/btnBaoGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Báo giá"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lap5lap6</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+    <string-array name="school_branches">
+        <item>FPoly Hà Nội</item>
+        <item>FPoly Đà Nẵng</item>
+        <item>FPoly Tây Nguyên</item>
+        <item>FPoly Cần Thơ</item>
+        <item>FPoly Hồ Chí Minh</item>
+    </string-array>
+
+
+</resources>
